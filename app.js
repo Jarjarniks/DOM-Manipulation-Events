@@ -42,3 +42,8 @@ const bestBtn = document.querySelector('#best-btn');
 bestBtn.addEventListener('click', () => {
     alert('hello world');
 })
+
+const eventInfoBtn = document.querySelector('#event-info');
+eventInfoBtn.addEventListener('click', function (e) {
+    console.log(e)
+})
