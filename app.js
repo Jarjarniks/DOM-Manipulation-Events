@@ -22,3 +22,11 @@ const containerDiv = document.createElement('div');
 containerDiv.classList.toggle('container-div');
 
 container.appendChild(containerDiv);
+
+const h1 = document.createElement('h1');
+h1.textContent = "I'm in a div";
+const p2 = document.createElement('p');
+p2.textContent = "Me too!";
+
+containerDiv.appendChild(h1);
+containerDiv.appendChild(p2);
