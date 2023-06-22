@@ -47,3 +47,5 @@ const eventInfoBtn = document.querySelector('#event-info');
 eventInfoBtn.addEventListener('click', function (e) {
     console.log(e)
 })
+
+const group = document.querySelector('#group');
