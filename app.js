@@ -32,8 +32,13 @@ containerDiv.appendChild(h1);
 containerDiv.appendChild(p2);
 
 /* Events */
-// method 2, better, but a dom element can only have 1 "onclick" property, meaning we can't run multiple functions.
+// method 2, better, but a dom element can only have 1 "onclick" property.
 const btn = document.querySelector('#btn');
 btn.onclick = () => {
     alert('Hello world');
 }
+
+const bestBtn = document.querySelector('#best-btn');
+bestBtn.addEventListener('click', () => {
+    alert('hello world');
+})
