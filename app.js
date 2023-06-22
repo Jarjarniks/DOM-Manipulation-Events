@@ -30,3 +30,5 @@ p2.textContent = "Me too!";
 
 containerDiv.appendChild(h1);
 containerDiv.appendChild(p2);
+
+/* Events */
