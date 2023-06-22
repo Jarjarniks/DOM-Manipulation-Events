@@ -11,3 +11,9 @@ p.classList.toggle('red');
 p.textContent = "Hey I'm red!"
 
 container.appendChild(p);
+
+const h3 = document.createElement('h3');
+h3.classList.toggle('blue');
+h3.textContent = "I'm a blue h3!"
+
+container.appendChild(h3);
