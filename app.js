@@ -19,6 +19,6 @@ h3.textContent = "I'm a blue h3!"
 container.appendChild(h3);
 
 const containerDiv = document.createElement('div');
-div.classList.toggle('container-div');
+containerDiv.classList.toggle('container-div');
 
 container.appendChild(containerDiv);
